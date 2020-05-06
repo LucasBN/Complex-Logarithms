@@ -35,7 +35,7 @@ To run the program open the cloned repository in terminal and type:
 python main.py
 ```
 
-### Examples
+## Examples
 
 The imaginary part over the complex plane:
 
