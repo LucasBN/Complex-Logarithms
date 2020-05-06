@@ -45,6 +45,10 @@ The real part over the complex plane:
 
 ![Real over complex](examples/real.png)
 
+The imaginary part over the complex plane (two branches):
+
+![Real over complex](examples/doublelayeredimag.png)
+
 ### Creating your own plots
 
 To plot your own function over the complex plane, create a function that returns a value for z given a complex number. (See example functions.)
