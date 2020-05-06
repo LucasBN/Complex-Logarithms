@@ -20,7 +20,7 @@ numpy - pip install numpy
 Clone this repository using terminal:
 
 ```
-git clone https://github.com/LucasBN/ComplexLogarithms.git
+git clone https://github.com/LucasBN/Complex-Logarithms.git
 ```
 
 ## Authors
