@@ -1,6 +1,6 @@
 # 3D Representations of Complex Logarithms
 
-This projects generates 3D graphs, based on the logarithms of complex numbers. By writing a complex number in the form re<sup>ia</sup> where r is the modulus of the complex number and a is the angle from the real plane, it is easy to take the logarithm of that complex number. log(z) = log(re<sup>ia</sup>) = log(r) + log(e<sup>ia</sup>) = log(r) + re<sup>ia</sup>.
+This project generates 3D graphs, based on the logarithms of complex numbers. By writing a complex number in the form re<sup>ia</sup> where r is the modulus of the complex number and a is the angle from the real plane, it is easy to take the logarithm of that complex number. log(z) = log(re<sup>ia</sup>) = log(r) + log(e<sup>ia</sup>) = log(r) + re<sup>ia</sup>.
 
 ## Getting Started
 
