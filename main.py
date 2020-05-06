@@ -27,7 +27,7 @@ for xi in range(xn):
     for yi in range(yn):
         try:
             z = complex(xs[xi,yi], ys[xi,yi])
-            zs[xi,yi] = complex_log_imag(z)
+            zs[xi,yi] = complex_log_real(z)
         except (ZeroDivisionError):
             pass
 

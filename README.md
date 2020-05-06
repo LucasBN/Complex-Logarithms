@@ -23,6 +23,22 @@ Clone this repository using terminal:
 git clone https://github.com/LucasBN/Complex-Logarithms.git
 ```
 
+To run the program open the cloned repository in terminal and type:
+
+```
+python main.py
+```
+
+### Examples
+
+The imaginary part over the complex plane:
+
+![Imaginary over complex](examples/imaginary.png)
+
+The real part over the complex plane:
+
+![Real over complex](examples/real.png)
+
 ## Authors
 
 * **Lucas BN** - *Initial work*
