@@ -13,7 +13,7 @@ These instructions will help you to get you a copy of the project running on you
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You will need these python modules to be able to run the project.
 
 ```
 matplotlib - pip install matplotlib
