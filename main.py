@@ -16,22 +16,25 @@ def complex_log_imag(z):
 
 fig = plt.figure()
 
-xs = np.arange(-3, 3, 0.125)
-ys = np.arange(-3, 3, 0.125)
-
-xs, ys = np.meshgrid(xs, ys)
-zs = xs*0
-
-xn, yn = xs.shape
-for xi in range(xn):
-    for yi in range(yn):
-        try:
-            z = complex(xs[xi,yi], ys[xi,yi])
-            zs[xi,yi] = complex_log_real(z)
-        except (ZeroDivisionError):
-            pass
-
+num_levels = 1
 ax = plt.axes(projection='3d')
-ax.plot_surface(xs, ys, zs, rstride=2, cstride=2, cmap='rainbow', edgecolor='none')
+
+for k in range(-num_levels, num_levels):
+    xs = np.arange(-3, 3, 0.125)
+    ys = np.arange(-3, 3, 0.125)
+
+    xs, ys = np.meshgrid(xs, ys)
+    zs = xs*0
+
+    xn, yn = xs.shape
+    for xi in range(xn):
+        for yi in range(yn):
+            try:
+                z = complex(xs[xi,yi], ys[xi,yi])
+                zs[xi,yi] = complex_log_imag(z)+(2*math.pi*k)
+            except (ZeroDivisionError):
+                pass
+
+    ax.plot_surface(xs, ys, zs, rstride=1, cstride=1, cmap='rainbow', edgecolor='none')
 
 plt.show()
