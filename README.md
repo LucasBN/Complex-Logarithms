@@ -2,7 +2,7 @@
 
 This project generates 3D graphs, based on the logarithms of complex numbers. By writing a complex number in the form re<sup>ia</sup> where r is the modulus of the complex number and a is the angle from the real plane, it is easy to take the logarithm of that complex number.
 
-    Log(z) = log(re<sup>ia</sup>) = log(r) + log(e<sup>ia</sup>) = log(r) + re<sup>ia</sup>
+Log(z) = log(re<sup>ia</sup>) = log(r) + log(e<sup>ia</sup>) = log(r) + re<sup>ia</sup>
 
 The domain must be restricted because the function is periodic, since adding multiples of 2Pi gives the same
 result. Therefore the graphs generated show a single branch, and do not represent the entire function.
